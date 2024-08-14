@@ -1,12 +1,12 @@
 body {
     .roboto-medium {
-        font-family: "Roboto", sans-serif;
+        font-family: Roboto, sans-serif;
         font-weight: 500;
         font-style: normal;
-      };
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 50px;
+        background-color: #ffffff;
     color: #333333;
 }
 
@@ -50,10 +50,10 @@ section {
 
 footer {
     background-color: white;
-    color: black;
-    text-align: right;
-    padding: 1%;
-    position: fixed;
+    color: grey;
+    text-align: center;
+    padding: 10px;
+    position: relative;
     width: 100%;
     bottom: 0;
 }
@@ -63,13 +63,13 @@ footer {
     align-items: left;
     justify-content: left; /* Center the logo and text horizontally */
     padding: 10px;
-    width: 75%%;
+    width: 75%;
     background-color: white; /* Adjust to your preferred color */
 }
 
 .logo {
-    max-width: 100%; /* Makes the logo responsive */
-    width: 400px;
+    max-width: 75%; /* Makes the logo responsive */
+    width: 50%;
     height: auto; /* Maintains the aspect ratio of the logo */
 }
 
