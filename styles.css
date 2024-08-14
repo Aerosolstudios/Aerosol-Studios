@@ -63,12 +63,13 @@ footer {
     align-items: left;
     justify-content: left; /* Center the logo and text horizontally */
     padding: 10px;
+    width: 75%%;
     background-color: white; /* Adjust to your preferred color */
 }
 
 .logo {
-    height: 5px; /* Adjust the size of the logo as needed */
-    margin-right: 20px; /* Space between the logo and the text */
+    max-width: 100%; /* Makes the logo responsive */
+    height: auto; /* Maintains the aspect ratio of the logo */
 }
 
 header h1 {
