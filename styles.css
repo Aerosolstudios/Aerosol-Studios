@@ -40,11 +40,13 @@ nav a:hover {
 
 section {
     padding: 10px;
+    width: 20cm;
 }
 
 .container {
     width: 80%;
-    margin: 10px;
+    max-width: 800px;
+    margin: auto;
     overflow: hidden;
 }
 
