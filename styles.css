@@ -41,8 +41,8 @@ section {
 }
 
 .container {
-    width: 80%;
-    max-width: 800px;
+    width: 800px;
+    max-width: 90%;
     margin: auto;
     overflow: hidden;
 }
@@ -51,7 +51,7 @@ footer {
     background-color: white;
     color: grey;
     text-align: center;
-    padding: 10px;
+    padding: 100px;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -61,8 +61,17 @@ footer {
     display: flex;
     align-items: left;
     justify-content: left; /* Center the logo and text horizontally */
-    padding: 10px;
+    padding: 10px 0px 50px 10px;
     width: 75%;
+    background-color: white; /* Adjust to your preferred color */
+}
+
+.essay-container {
+    display: flex;
+    align-items: left;
+    justify-content: left; /* Center the logo and text horizontally */
+    padding: 10px 0px 50px 10px;
+    width: 95%;
     background-color: white; /* Adjust to your preferred color */
 }
 
@@ -76,10 +85,12 @@ header h1 {
     color: black; /* Ensure the text color contrasts with the background */
     margin: 0;
     font-weight: 700;
+    font-size: large;
 }
 
 header h2 {
     color: black; /* Ensure the text color contrasts with the background */
     margin: 0;
     font-weight: 400;
+    font-size: medium;
 }
