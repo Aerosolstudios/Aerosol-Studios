@@ -61,8 +61,8 @@ footer {
     display: flex;
     align-items: left;
     justify-content: left; /* Center the logo and text horizontally */
-    padding: 10px 0px 50px 0x;
-    width: 75%;
+    padding: 50px 0px 10px 5px;
+    width: 90%;
     background-color: white; /* Adjust to your preferred color */
 }
 
@@ -86,12 +86,10 @@ header h1 {
     color: black; /* Ensure the text color contrasts with the background */
     margin: 0;
     font-weight: 700;
-    font-size: large;
 }
 
 header h2 {
     color: black; /* Ensure the text color contrasts with the background */
     margin: 0;
-    font-weight: 400;
-    font-size: medium;
+    font-weight: 500;
 }
