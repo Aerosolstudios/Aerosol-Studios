@@ -72,12 +72,13 @@ footer {
     justify-content: left; /* Center the logo and text horizontally */
     padding: 5px 0px 50px 10px;
     width: 95%;
+    height: auto;
     background-color: white; /* Adjust to your preferred color */
 }
 
 .logo {
-    max-width: 75%; /* Makes the logo responsive */
-    width: 50%;
+    max-width: 90%; /* Makes the logo responsive */
+    width: 10cm;
     height: auto; /* Maintains the aspect ratio of the logo */
 }
 
